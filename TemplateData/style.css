@@ -1,5 +1,15 @@
+.outer {
+    position: relative;
+    margin-top: 20px;
+}
+.webgl-content {
+    position: absoluute;
+    margin-top: -10px;
+}
+.how_to {
+    position: absolute;
+}
 .webgl-content * {border: 0; margin: 0; padding: 0}
-.webgl-content {position: absolute; top: 5%; left: 50%;}  /* -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}*/
 .webgl-content .logo, .progress {position: absolute; left: 50%; top: 5%;}  /* -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}*/
 .webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
 .webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
@@ -15,5 +25,3 @@
 .webgl-content .footer .webgl-logo {background-image: url('webgl-logo.png'); width: 204px; float: left;}
 .webgl-content .footer .title {margin-right: 10px; float: right;}
 .webgl-content .footer .fullscreen {background-image: url('fullscreen.png'); width: 38px; float: right;}
-
-.how_to * {position: absolute; left: 5%; right: 60%;}
