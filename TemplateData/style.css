@@ -8,6 +8,7 @@
 }
 .how_to {
     position: absolute;
+    font-size: 32px;
 }
 .webgl-content * {border: 0; margin: 0; padding: 0}
 .webgl-content .logo, .progress {position: absolute; left: 50%; top: 5%;}  /* -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}*/
